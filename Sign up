@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔥 Elite Meet - Connect Instantly Tonight!</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #111;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            color: #fff;
+        }
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #1e1e1e;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(255, 20, 147, 0.3);
+        }
+        .logo {
+            font-size: 28px;
+            color: #ff2d55;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .verified-badge {
+            color: #4CAF50;
+            font-size: 14px;
+            margin: 5px 0;
+        }
+        .user-count {
+            background: #ff2d55;
+            color: white;
+            padding: 8px;
+            border-radius: 5px;
+            display: inline-block;
+            margin: 10px 0;
+        }
+        .cta-button {
+            background: #ff2d55;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 15px auto;
+            text-decoration: none;
+            display: inline-block;
+            animation: pulse 2s infinite;
+        }
+        .cta-button:hover {
+            background: #e61e4d;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        .testimonial {
+            background: #2a2a2a;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+            font-style: italic;
+        }
+        .disclaimer {
+            font-size: 12px;
+            color: #777;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">ELITE MEET</div>
+        <div class="verified-badge">✅ Verified Users | 18+ Only</div>
+        
+        <h1>🔥 <span style="color: #ff2d55;">Connect Instantly</span> Tonight!</h1>
+        <p><strong>Chat, Flirt & Meet Real People Near You!</strong> 💬</p>
+        
+        <div class="user-count">
+            <strong>1873 users online now!</strong> ⌛
+        </div>
+        
+        <!-- Fake Testimonial (Text-Only) -->
+        <div class="testimonial">
+            "Met someone amazing here last night... so easy to connect! 😍" <br> — <strong>James, 29</strong>
+        </div>
+        
+        <p>🚀 <strong>Fast & Free</strong> | 🌍 <strong>Worldwide</strong> | 🔒 <strong>100% Discreet</strong></p>
+        
+        <!-- ANIMATED CTA BUTTON (PULSE EFFECT) -->
+        <a href="https://www.profitableratecpm.com/bhb2rkwbh?key=bbad9225b33295fbef7c67f99f059236" class="cta-button">
+            🔥 JOIN ELITE MEET NOW! 🔥
+        </a>
+        
+        <div class="disclaimer">
+            By clicking above, you agree to our Terms. 18+ only. This site uses cookies.
+        </div>
+    </div>
+    
+    <!-- Fake Live Counter (Auto-Increasing) -->
+    <script>
+        function updateCounter() {
+            const counter = document.querySelector('.user-count strong');
+            let count = 1873;
+            setInterval(() => {
+                count += Math.floor(Math.random() * 5) + 1;
+                counter.textContent = count + " users online now!";
+            }, 3000);
+        }
+        window.onload = updateCounter;
+    </script>
+</body>
+</html>
